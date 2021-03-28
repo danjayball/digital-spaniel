@@ -4,6 +4,7 @@
 Visit a live, production build preview at [```https://sharp-swartz-967dd9.netlify.app/```](https://sharp-swartz-967dd9.netlify.app/)
 
 ## Tech Stack
+- TypeScript
 - Gatsby
 - React
 - Redux w/ Redux Thunk
