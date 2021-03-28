@@ -1,0 +1,16 @@
+.nav-bar-burger-menu div {
+  transition: opacity 0.1s cubic-bezier(0.445, 0.05, 0.55, 0.95),
+    transform 0.1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.nav-bar-burger-menu.active div:first-child {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.nav-bar-burger-menu.active div:nth-child(3) {
+  opacity: 0;
+}
+
+.nav-bar-burger-menu.active div:last-child {
+  transform: rotate(-45deg) translate(6px, -6px);
+}

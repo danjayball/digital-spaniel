@@ -1,0 +1,50 @@
+.project-slider .carousel-slider {
+  @apply pb-20 sm:pb-24 lg:pb-32;
+}
+
+.project-slider .carousel.carousel-slider .control-arrow {
+  @apply top-auto opacity-100 w-12 h-12 bg-primary text-white transition-colors duration-100 hover:bg-secondary lg:w-16 lg:h-16;
+}
+
+.project-slider .carousel.carousel-slider .control-disabled.control-arrow {
+  @apply block bg-secondary text-primary opacity-70;
+}
+
+.project-slider .carousel.carousel-slider .control-arrow.control-prev {
+  @apply left-auto right-20 lg:right-28;
+}
+
+.project-slider .carousel.carousel-slider .control-arrow.control-next::before,
+.project-slider .carousel.carousel-slider .control-arrow.control-prev::before {
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="28px" height="28px"><g data-name="Layer 2"><g data-name="arrow-ios-forward"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M10 19a1 1 0 0 1-.64-.23 1 1 0 0 1-.13-1.41L13.71 12 9.39 6.63a1 1 0 0 1 .15-1.41 1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19z"/></g></g></svg>');
+  @apply border-none m-0 block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+
+.project-slider .carousel.carousel-slider .control-arrow.control-next::before {
+  @apply mt-1 mr-2;
+}
+
+.project-slider .carousel.carousel-slider .control-arrow.control-prev::before {
+  @apply -rotate-180 origin-center -mt-1;
+}
+
+.project-slider
+  .carousel.carousel-slider
+  .control-arrow.control-next.control-disabled::before,
+.project-slider
+  .carousel.carousel-slider
+  .control-arrow.control-prev.control-disabled::before {
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="19293A" width="28px" height="28px"><g data-name="Layer 2"><g data-name="arrow-ios-forward"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M10 19a1 1 0 0 1-.64-.23 1 1 0 0 1-.13-1.41L13.71 12 9.39 6.63a1 1 0 0 1 .15-1.41 1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19z"/></g></g></svg>');
+}
+
+.project-slider
+  .carousel.carousel-slider
+  .control-arrow:not(.control-disabled)::before {
+  @apply text-primary;
+}
+
+.project-slider
+  .carousel.carousel-slider
+  .control-arrow.control-disabled::before {
+  @apply text-white;
+}

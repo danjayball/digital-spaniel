@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Paul Simon",
+    "occupation": "Founder, MegaCorp",
+    "comment": "Working with Digital Spaniel has been a breath of fresh air. Their approach and attitude kept me informed and included from the start. Super pleased with the end results too!",
+    "src": "/images/testimonial_face03.png"
+  },
+  {
+    "name": "Johnny B. Goode",
+    "occupation": "CEO, Getting Things Done",
+    "comment": "Advice and support from DigiSpan was second to none. Always willing to help and offer advice and solutions. A very good and rapid understanding of our requirements was key to this.",
+    "src": "/images/testimonial_face01.png"
+  },
+  {
+    "name": "Mary Jane",
+    "occupation": "CEO, Design Matters",
+    "comment": "We needed a creative and unique brand which could compete against established products. Digital Spaniel delivered in spades and we’ve seen a huge response to the product launch.",
+    "src": "/images/testimonial_face02.png"
+  }
+]
