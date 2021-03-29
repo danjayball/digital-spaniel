@@ -11,5 +11,5 @@ Visit a live, production build preview at [```https://sharp-swartz-967dd9.netlif
 - TailwindCSS
 
 ## Instructions
-1.  Install and start the development server via  ```shell yarn && yarn start``` or ```npm i && npm run start```
+1.  Install, then start the development server via  ```yarn && yarn start``` or ```npm i && npm run start```
 2.  Visit [```http://localhost:8000/```](http://localhost:8000/) in the browser
